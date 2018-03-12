@@ -28,6 +28,9 @@
 % environment
 \usepackage{amsmath, amssymb}
 
+% For `\shortintertext{}` and other things.
+\usepackage{mathtools}
+
 % For \includegraphics
 \usepackage{graphicx}
 

@@ -376,10 +376,6 @@
   \newpage
 }
 
-\def\theMontha{
-  \ifthenelse{}
-}
-
 \pagestyle{fancy}
 \fancyhf{}
 \lhead{\agstract@name}

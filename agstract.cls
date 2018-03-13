@@ -192,8 +192,8 @@
 %  - minus 2pt means that TeX can shrink it by at most 2pt
 
 \titlespacing\section{0pt}{
-  0pt plus 4pt minus 2pt}{
-  0pt plus 2pt minus 2pt}
+  0pt plus 1pt minus 1pt}{
+  0pt plus 1pt minus 1pt}
 
 
 

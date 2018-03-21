@@ -1,1 +1,4 @@
 /auto
+*.aux
+*.log
+*.out

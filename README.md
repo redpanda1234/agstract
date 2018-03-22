@@ -55,7 +55,26 @@ your file, followed by something like
 % not trivial is getting the date superscript right), but idk how to
 % do RegEx in TeX, and in general, programming in TeX is unbearable.
 \lfoot{Due Tuesday, March 27th 2018}
+
+\begin{document}
+
+blah blah blah
+
+\end{document}
 ```
+
+If, like me, you're too lazy to type things out manually, then you can
+do the following to generate my `.tex` template for agstract psets.
+1. Do something like
+```bash
+python3 pset_gen.py
+```
+or
+```
+$ ipython
+In[1]: run pset_gen.py
+```
+and then just follow the instructions.
 
 # "I have no idea how any of this works"
 If you're not familiar with the structure of `.cls` files and/or

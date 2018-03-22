@@ -87,3 +87,6 @@ def main():
     gen(file, no, di, ps)
 
     os.chdir(main_dir)
+
+if __name__ == "__main__":
+    main()

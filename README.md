@@ -9,7 +9,7 @@ use it, you have a few options:
    [here](https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te).
    Once you're in `texmf/tex/latex`, you can `git clone` the
    repository there, and everything should be hunky-dory. On my
-   computer, the full path to `pset.cls` is
+   computer, the full path to `agstract.cls` is
    ```zsh
    /Users/forestkobayashi/Library/texmf/tex/latex/agstract/agstract.cls
    ```
@@ -60,7 +60,7 @@ your file, followed by something like
 # "I have no idea how any of this works"
 If you're not familiar with the structure of `.cls` files and/or
 defining TeX commands, don't worry! Here is an explanation of most of
-the commands I've defined/redefined in `pset.cls`:
+the commands I've defined/redefined in `agstract.cls`:
 * `\ref` --- In LaTeX, you can put a label (e.g.,
   `\label{eq:<equation_name>}`) on things like numbered equations and
   figures, allowing you to reference the equation number later in your
@@ -80,7 +80,7 @@ the commands I've defined/redefined in `pset.cls`:
 * `\ph` inserts a blank character that's precisely as long as the `-`
   symbol in TeX. I use this to align entries in columns of matrices
   containing negative signs. To see what I mean, put the following
-  into a `.tex` file of class `pset`, and compare how they look:
+  into a `.tex` file of class `agstract`, and compare how they look:
   ```latex
   \[
     \begin{bmatrix}

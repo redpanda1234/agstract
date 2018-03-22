@@ -122,9 +122,9 @@
 
 % Commands to avoid exiting math mode
 \newcommand{\st}{\mrm{\ st\ }}
-\newcommand{\lub}{\mrm{lub}}
-\newcommand{\glb}{\mrm{glb}}
-\newcommand{\lcm}{\mrm{lcm}}
+\DeclareMathOperator{\lub}{\mrm{lub}}
+\DeclareMathOperator{\glb}{\mrm{glb}}
+\DeclareMathOperator{\lcm}{\mrm{lcm}}
 
 % Useful shortcut commands for common fields
 \newcommand{\CC}{\mathbb{C}}
@@ -166,6 +166,9 @@
 \newcommand{\centg}[1]{\cc_G (#1)}
 \newcommand{\nliz}[2]{\mb{N}_{#1} (#2)}
 
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem] % Reset counter w new thm
+\newtheorem{lemma}[theorem]{Lemma} % Same counter as thm
 
 
 % ================================================================== %

@@ -229,6 +229,7 @@
 \newcommand{\cent}[2]{\cc_{#1} (#2)}
 \newcommand{\centg}[1]{\cc_G (#1)}
 \newcommand{\nliz}[2]{\mb{N}_{#1} (#2)}
+\newcommand{\nrm}{\triangleleft}
 
 % Homomoprhic things
 % N.B. \Im gives a hebrew (?) letter

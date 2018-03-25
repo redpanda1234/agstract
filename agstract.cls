@@ -230,6 +230,10 @@
 \newcommand{\centg}[1]{\cc_G (#1)}
 \newcommand{\nliz}[2]{\mb{N}_{#1} (#2)}
 
+% Homomoprhic things
+% N.B. \Im gives a hebrew (?) letter
+\newcommand{\im}{\text{Im}}
+
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[theorem] % Reset counter w new thm
 \newtheorem{lemma}[theorem]{Lemma} % Same counter as thm

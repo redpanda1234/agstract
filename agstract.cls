@@ -217,18 +217,21 @@
 \newcommand{\fix}{\mrm{fix}}
 
 % Agstract sets / subgroups
-\newcommand{\orbit}[1]{\oo_\Omega(#1)}
+\newcommand{\orb}{\oo_}
+\newcommand{\orbo}{\oo_\Omega}
 \newcommand{\stab}{\mrm{Stab}}
-\newcommand{\syl}[1]{\mrm{Syl}_{#1}}
-\newcommand{\Syl}{\mrm{Syl}}
+\newcommand{\stabg}{\mrm{Stab}}
+\newcommand{\syl}{\mrm{Syl}}
 \newcommand{\sylp}{\mrm{Syl}_p}
 
 % Commutative-flavored things
 \newcommand{\cl}{\mrm{cl}}
-\newcommand{\ctr}[1]{\zz(#1)}
-\newcommand{\cent}[2]{\cc_{#1} (#2)}
-\newcommand{\centg}[1]{\cc_G (#1)}
-\newcommand{\nliz}[2]{\mb{N}_{#1} (#2)}
+\newcommand{\ctr}{\zz}
+\newcommand{\ctrg}{\zz(G)}
+\newcommand{\cent}{\cc}
+\newcommand{\centg}{\cc_G}
+\newcommand{\nliz}{\mb{N}}
+\newcommand{\nlizg}{\mb{N}_G}
 \newcommand{\nrm}{\triangleleft}
 
 % Homomoprhic things

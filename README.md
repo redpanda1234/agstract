@@ -188,29 +188,27 @@ the commands I've defined/redefined in `agstract.cls`:
   fix.
 
 * Special collections of things
-  - `\orbit{x}` will expand to `\mathcal{O}_{\Omega}(x)`, the orbit of
-      element x in the set Omega.
+  - `\orb` is the same as `\oo`.
+  - `\orbo` will expand to `\mathcal{O}_\Omega`, the orbit
+      in the set Omega.
   - `\stab` takes no arguments, and just typesets a roman-face "Stab".
-  - `\syl{n}` will typeset `\mathrm{Syl}_n`, for whenver you're looking
-    at a sylow n-group. Note that TeX won't care, but your n really
-    should be a prime.
-  - `\Syl` just typesets `\mathrm{Syl}`. Sometimes I just don't feel
+  - `\syl` just typesets `\mathrm{Syl}`. Sometimes I just don't feel
     like going through the effort of typing in a `{`, so I use
-    underscore with this. No h8
+    underscore with this. No h8.
   - `\sylp` just expands to `\mathrm{Syl}_p`, for whenever you're
     dealing with a general Sylow p-group.
 
 * Commutative-flavored agstract objects
   - `\cl` does a roman `\mathrm{cl}`, for when you're looking at
     conjugacy classes.
-  - `\ctr{G}` will expand to `\mathbf{Z}(G)`, representing the center
-    of a group G.
-  - `\cent{G}{x}` will expand to `\mathbf{C}_G(x)`, the centralizer of
-    x in G.
-  - `\centg{x}` does the same thing, except it's assumed your group is
-    called G and not something else.
-  - `\nliz{G}{H}` will expand to `\mathbf{N}_G(H)`, the normalizer of
+  - `\ctr` will expand to `\mathbf{Z}`, representing the center
+    of a group.
+  - `\cent` will expand to `\mathbf{C}`, the centralizer of an element.
+  - `\centg` does the same thing, except it's assumed your group is
+    called G.
+  - `\nliz` will expand to `\mathbf{N}`, the normalizer of
     H in G.
+  - `\nlizg` will expand to `\mathbf{N}_G`, assuming the group is G.
 
 * In addition, there are a few handy environments. `theorem`,
   `corollary`, and `lemma`. You do these like

@@ -191,6 +191,7 @@
 \DeclareMathOperator{\lcm}{\mrm{lcm}}
 
 % Useful shortcut commands for common fields
+\newcommand{\FF}{\mathbb{F}}
 \newcommand{\CC}{\mathbb{C}}
 \newcommand{\RR}{\mathbb{R}}
 \newcommand{\QQ}{\mathbb{Q}}

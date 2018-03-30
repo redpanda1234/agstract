@@ -19,66 +19,69 @@
 %                                                                    %
 % ================================================================== %
 
-\usepackage[margin=1in, tmargin=1.25in]{geometry}
+\RequirePackage[margin=1in, tmargin=1.25in]{geometry}
 
 %% Problem and reading set lists, for top of document
-\usepackage{etoolbox}
+\RequirePackage{etoolbox}
 
 % For most of the math symbols, and nice things like align
 % environment
-\usepackage{amsmath, amssymb}
+\RequirePackage{amsmath, amssymb}
 
 % For `\shortintertext{}` and other things.
-\usepackage{mathtools}
+\RequirePackage{mathtools}
 
 % For \includegraphics
-\usepackage{graphicx}
+\RequirePackage{graphicx}
 
 % Fancy page header
-\usepackage{fancyhdr}
+\RequirePackage{fancyhdr}
 
 % For customizing the enumerate environment
-\usepackage{enumitem}
+\RequirePackage{enumitem}
 
 % For leftbar environment (for proving lemmas, if needed)
-\usepackage{framed}
+\RequirePackage{framed}
 
 % For leftbar color
-\usepackage{color}
+\RequirePackage{color}
 
 % For multi-column environment
-\usepackage{multicol}
+\RequirePackage{multicol}
 
 % In case you want any Cayley diagrams, etc.
-\usepackage{tikz}
+\RequirePackage{tikz}
 \usetikzlibrary{arrows} % Better arrows
 \usetikzlibrary{arrows.meta}
 \usetikzlibrary{calc} % Add coordinates and stuff
 \usetikzlibrary{patterns} % distinguishing shapes
 
 % ...Which you would probably place in figure environments
-\usepackage{float}
+\RequirePackage{float}
 
 % For referencing page count
-\usepackage{lastpage}
+\RequirePackage{lastpage}
 
 % Because I've learned my lesson about manual line breaks
-\usepackage{parskip}
+\RequirePackage{parskip}
 
 % For checkmark and xmark when confirming / denying claims
-\usepackage{pifont}
+\RequirePackage{pifont}
 
 % For cancelling stuff, duh
-\usepackage{cancel}
+\RequirePackage{cancel}
 
 % So that the whitespace around section headers can be made less
 % obnoxiously large
-\usepackage{titlesec}
+\RequirePackage{titlesec}
+
+% For making tables
+\RequirePackage{booktabs}
 
 %% COVERSHEET PACKAGES
-\usepackage{ifthen}
-\usepackage{array}
-\usepackage{stackengine}
+\RequirePackage{ifthen}
+\RequirePackage{array}
+\RequirePackage{stackengine}
 
 
 

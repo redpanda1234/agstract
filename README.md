@@ -163,7 +163,7 @@ the commands I've defined/redefined in `agstract.cls`:
 
 * `\CC, \RR, \QQ, \ZZ,` and `\NN` typeset the symbols for the Complex
   Numbers, Real Numbers, Rational Numbers, Integers, and Natural
-  Numbers, respectively.
+  Numbers, respectively. `\FF` works for some general field.
 
 * Mod field commands
   - `\zmod{n}` will expand to `\mathbb{Z}/n\mathbb{Z}` (integers mod

@@ -181,7 +181,13 @@
 % Automagic `such that' for set comprehension. Inside an automagic
 % delimiter command, the vertical bar will resize appropriately
 % Example:
-%   \set{ x \in W \MID x > 0 }
+% \set{
+%   \begin{bmatrix}
+%     x & 0 \\
+%     0 & y
+%   \end{bmatrix}
+%   \MID x \in \RR, y \in \ZZ
+% }
 \newcommand{\MID}{\;\mdelim\vert\;}
 
 

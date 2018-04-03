@@ -210,6 +210,23 @@ the commands I've defined/redefined in `agstract.cls`:
     H in G.
   - `\nlizg` will expand to `\mathbf{N}_G`, assuming the group is G.
 
+* Rings and stuff
+  - `\ring` takes one mandatory argument, which we'll denote `R`, and
+    an optional argument, `size`. `R` is the set on which we're
+    defining ring operations, and `size` is the (optional) size to
+    pass specifying how tall the parentheses should be.
+  - `\uring` is similar, but is for the units of a ring. Here too,
+    `size` is an optional argument.
+  - `\zjoin` takes `d` as a mandatory argument, and `size` as an
+    optional argument. expands to `\ZZ\bk[size]{d}`, that is, the
+    integers join `d`.
+  - `\qjoin` does the same, but with the rationals.
+  - `\matring` takes two mandatory arguments, `dims` and `R`. `dims`
+    should be something like `m \times n`, and `R` should be some
+    commutative ring with identity. I mean again, LaTeX won't get
+    angry at you if you do something else, but _I_ will be
+    disappointed.
+
 * In addition, there are a few handy environments. `theorem`,
   `corollary`, and `lemma`. You do these like
   ```latex

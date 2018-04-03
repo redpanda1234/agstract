@@ -75,6 +75,9 @@
 % obnoxiously large
 \RequirePackage{titlesec}
 
+% For things like a degree symbol
+\RequirePackage{gensymb}
+
 % For making tables
 \RequirePackage{booktabs}
 
@@ -241,6 +244,14 @@
 % Homomoprhic things
 % N.B. \Im gives a hebrew (?) letter
 \newcommand{\im}{\text{Im}}
+
+% RINGS!
+\newcommand{\ring}[2][]{\pn[#1]{#2, +, -}}
+\newcommand{\uring}[2][]{\pn[#1]{\pn[#1]{#2}^{\times}, +, -}}
+\newcommand{\zjoin}[2][]{\ZZ\bk[#1]{#2}} % optional size parameter
+\newcommand{\qjoin}[2][]{\QQ\bk[#1]{#2}}
+\newcommand{\matring}[2]{M_{#1}\pn{#2}}
+
 
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[theorem] % Reset counter w new thm

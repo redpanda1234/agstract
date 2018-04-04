@@ -257,8 +257,14 @@
 \newcommand{\zjoin}[2][]{\ZZ\bk[#1]{#2}} % optional size parameter
 \newcommand{\qjoin}[2][]{\QQ\bk[#1]{#2}}
 \newcommand{\matring}[2]{M_{#1}\pn{#2}}
+\newcommand{\cring}[4][]{\pn[#1]{#2, #3, #4}}
 
+% GROUPS!
+\newcommand{\pgroup}[2][]{\pn[#1]{#2, +}}
+\newcommand{\mgroup}[2][]{\pn[#1]{#2, \cdot}}
+\newcommand{\cgroup}[3][]{\pn[#1]{#2, #3}}
 
+% Theorem environments
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[theorem] % Reset counter w new thm
 \newtheorem{lemma}[theorem]{Lemma} % Same counter as thm

@@ -198,6 +198,7 @@
 
 % Commands to avoid exiting math mode
 \newcommand{\st}{\mrm{\ st\ }}
+\newcommand{\contra}{\Rightarrow\Leftarrow}
 \DeclareMathOperator{\lub}{\mrm{lub}}
 \DeclareMathOperator{\glb}{\mrm{glb}}
 \DeclareMathOperator{\lcm}{\mrm{lcm}}
@@ -252,8 +253,8 @@
 \newcommand{\im}{\text{Im}}
 
 % RINGS!
-\newcommand{\ring}[2][]{\pn[#1]{#2, +, -}}
-\newcommand{\uring}[2][]{\pn[#1]{\pn[#1]{#2}^{\times}, +, -}}
+\newcommand{\ring}[2][]{\pn[#1]{#2, +, \cdot}}
+\newcommand{\uring}[2][]{\pn[#1]{\pn[#1]{#2}^{\times}, +, \cdot}}
 \newcommand{\zjoin}[2][]{\ZZ\bk[#1]{#2}} % optional size parameter
 \newcommand{\qjoin}[2][]{\QQ\bk[#1]{#2}}
 \newcommand{\matring}[2]{M_{#1}\pn{#2}}
